@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(70, 17, 228);
+    text-align: center;
+    /* background: no-repeat center/80% url("Doraemon_character.png"); */
+}
+h1{
+    font-size: 10vmin;
+    color: blanchedalmond;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+.game-box{
+    padding: 20px;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.reset{
+    height: 10vmin;
+    width: 30vmin;
+    background: black;
+    border: 2px solid rgb(16, 174, 202);
+    border-radius: 10px;
+    font-size: 4vmin;
+    color: white;
+}
+
+.box{
+    /* padding: 59px; */
+    height: 18vmin;
+    width: 18vmin;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 8vmin;
+    box-shadow: 0 0 1rem rgba(0,0,0,.5);
+    color: brown;
+    font-weight: bold;
+    font-style: oblique;
+    background: rgb(71, 205, 225);
+}
+
+.msg-winner{
+    font-size: 16vmin;
+    font-weight: bold;
+    font-style: inherit;
+    color: rgb(183, 203, 30);
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#newbtn{
+    height: 5vmin;
+    width: 25vmin;
+    font-weight: bold;
+    background: black;
+    border: 2px solid rgb(16, 174, 202);
+    border-radius: 10px;
+    font-size: 3vmin;
+    color: rgb(246, 244, 244);
+}
+
+.hide{
+    display: none;
+}
+
+.bound{
+    border: 10px solid rgb(117, 80, 88);
+    /* background: no-repeat center/80% url("Doraemon_character.png"); */
+    border-radius: 10px;
+    background: whitesmoke;
+}
+
